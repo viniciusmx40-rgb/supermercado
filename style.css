@@ -1,0 +1,68 @@
+/* Banner */
+.banner {
+  background: url('../img/banner.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+/* Destaques */
+.destaques {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produtos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.preco {
+  font-size: 1.2rem;
+  color: #d9534f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
